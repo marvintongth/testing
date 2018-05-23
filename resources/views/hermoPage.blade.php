@@ -22,7 +22,7 @@
 		</div>
 		<div>
 			<span>RM 0.00</span>
-			<span><strike>RM 0.00</strike></span>
+			<span><strike>RM 0.00 TESTING</strike></span>
 		</div>
 		<div>
 			<span>
