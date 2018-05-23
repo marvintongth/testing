@@ -15,4 +15,5 @@ class OrderedItem extends Model
     {
         return $this->hasOne('testing/app/Product', 'prod__id', 'id');
     }
+
 }
