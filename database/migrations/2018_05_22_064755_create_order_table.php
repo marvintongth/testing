@@ -17,6 +17,7 @@ class CreateOrderTable extends Migration
             $table->increments('id');
             $table->integer('user_id');
             $table->integer('promo_id');
+            $table->integer('ordered_id');
             $table->integer('country');
             $table->double('shipping_fee');
             $table->double('total_price');

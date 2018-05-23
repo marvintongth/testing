@@ -29,7 +29,7 @@ class User extends Authenticatable
 
     public function order()
     {
-        return $this->hasMany('testing/app/Order', 'user_id', 'id');
+        return $this->hasMany('testing/app/Order');
     }
     
 }

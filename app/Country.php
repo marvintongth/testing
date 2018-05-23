@@ -6,5 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Country extends Model
 {
-    //aaaa
+    public function order()
+    {
+    	return $this->hasOne('testing/app/Order');
+    }
 }
