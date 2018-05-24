@@ -6,5 +6,5 @@ use Illuminate\Http\Request;
 
 class productPageController extends Controller
 {
-    //
+    //this is a testing line
 }
